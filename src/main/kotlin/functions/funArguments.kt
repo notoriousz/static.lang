@@ -1,7 +1,5 @@
 package functions
 
-import java.util.StringJoiner
-
 fun funWithDefaultParameters(
     // using default parameters
     firstArg: String = "Default parameter one",
@@ -23,18 +21,20 @@ fun namedArguments(
     println("$name, $yo, $single")
 }
 
+fun manyArguments(vararg args: String) {
+    println(args[0])
+    println(args[1])
+    println(args[2])
+}
+
 fun main() {
     // default args
     funWithDefaultParameters()
     funWithDefaultParameters("Reassign First", "Reassign Second")
 
-    println("--------------------------------------------")
-
     // to call y and use x as default, we need to use the name of the argument on declaration
     settingOneAsDefault(y = 25)
 
-
-    println("--------------------------------------------")
     // we can call a fun with no named arguments
 
     namedArguments(
@@ -42,4 +42,6 @@ fun main() {
         single = true // Declare key and value
     )
 
+    // using many arguments
+    manyArguments(args = arrayOf("A", "B", "C"))
 }
