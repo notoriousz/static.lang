@@ -30,4 +30,8 @@ fun forLoops() {
 
 fun main() {
     forLoops()
+
+    val array = arrayOf(1, 2, 3)
+    println(array.joinToString())
+
 }
