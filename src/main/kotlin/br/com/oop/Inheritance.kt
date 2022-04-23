@@ -3,13 +3,11 @@ package br.com.oop
 
 // using Inheritance sample
 
-open class Animal {
-    open var animalType: String? = null
+open class Animal(type: String) {
+    open var animalType: String? = type
 }
 
-class Bird(type: String) : Animal() {
-
-    override var animalType: String? = type
+class Bird(type: String) : Animal(type) {
 
 }
 
