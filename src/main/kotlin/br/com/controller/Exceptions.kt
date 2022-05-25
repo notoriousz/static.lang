@@ -1,6 +1,6 @@
 @file:Suppress("UNREACHABLE_CODE")
 
-package controls
+package br.com.controller
 
 import java.lang.invoke.WrongMethodTypeException
 

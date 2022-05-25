@@ -1,2 +1,2 @@
-package br.com.objects
+package br.com.`object`
 

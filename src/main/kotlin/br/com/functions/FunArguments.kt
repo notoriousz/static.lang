@@ -1,4 +1,4 @@
-package functions
+package br.com.functions
 
 fun funWithDefaultParameters(
     // using default parameters

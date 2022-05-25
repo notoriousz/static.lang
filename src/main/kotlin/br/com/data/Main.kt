@@ -1,4 +1,4 @@
-package br.com.serafim
+package br.com.data
 
 // is a good practice use the DNS (serafim.com.br) as seated packages in kotlin project and declare our business rules
 

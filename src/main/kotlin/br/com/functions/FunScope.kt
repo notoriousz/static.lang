@@ -1,7 +1,7 @@
-package functions
+package br.com.functions
 
 
-// local functions
+// local
 fun topLevelFun(): Unit {
     val topLevel: String = "Top level variable"
 
@@ -14,7 +14,7 @@ fun topLevelFun(): Unit {
 }
 
 
-// member functions
+// member br.com.functions
 class Sample {
 
     fun memberFunction() {

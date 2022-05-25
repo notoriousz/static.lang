@@ -1,4 +1,4 @@
-package functions
+package br.com.functions
 
 // fun structure with body
 fun camelCase(x: Int, y: Int): Int {

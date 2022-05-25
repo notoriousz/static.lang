@@ -1,4 +1,4 @@
-package br.com.objects
+package br.com.`object`
 
 
 // defining normal class
