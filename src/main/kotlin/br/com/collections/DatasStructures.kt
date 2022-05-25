@@ -1,6 +1,4 @@
-package br.com.serafim
-
-import java.util.StringJoiner
+package br.com.data
 
 fun main() {
     // creating a array -> in array we cannot add and remove itens

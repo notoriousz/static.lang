@@ -1,0 +1,4 @@
+package functions
+
+class FunInfix {
+}

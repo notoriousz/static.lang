@@ -1,4 +1,4 @@
-package br.com.oop
+package br.com.objects
 
 // Polymorphism samples
 
