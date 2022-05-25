@@ -5,7 +5,7 @@ class NumberTest(val number: Int)
 
 infix fun NumberTest.eMaiorQue(numberTwo: NumberTest): Boolean = this.number > numberTwo.number
 
-
+// infix is the prefixe of the middle operator between two operands
 
 
 fun main() {
