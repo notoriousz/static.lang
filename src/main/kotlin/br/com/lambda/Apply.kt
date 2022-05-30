@@ -10,8 +10,7 @@ class Calc123 {
 
 fun main() {
     val myCalc = Calc123()
-
+    // I can to climb the applies lambda
     myCalc.apply { calcs(4, 4) }.apply { calcs(2, 2) }
-
     println(myCalc.result)
 }
