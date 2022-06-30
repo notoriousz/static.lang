@@ -1,18 +1,18 @@
 package br.com.`object`
 
+import java.util.StringJoiner
+
 
 // using Inheritance sample
 
-open class Animal(type: String) {
-    open var animalType: String? = type
-}
+open class Animal(open val type: String = "")
 
-class Bird(type: String) : Animal(type) {
-
+class Bird : Animal() {
+    override val type = "Flying"
 }
 
 
 fun main() {
-    val bentivi = Bird("Flying")
-    println(bentivi.animalType)
+    val bentivi = Bird()
+    println(bentivi.type)
 }
